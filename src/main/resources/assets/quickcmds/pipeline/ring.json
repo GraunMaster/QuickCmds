@@ -1,0 +1,17 @@
+{
+  "snippets": [
+    "minecraft:position_color"
+  ],
+  "vertex_format": "position_color",
+  "blend": {
+    "function": "ADD",
+    "src_rgb": "SRC_ALPHA",
+    "dst_rgb": "ONE_MINUS_SRC_ALPHA",
+    "src_alpha": "ONE",
+    "dst_alpha": "ONE_MINUS_SRC_ALPHA"
+  },
+  "cull": false,
+  "depth_test": "no_depth_test",
+  "color_write": true,
+  "depth_write": false
+}

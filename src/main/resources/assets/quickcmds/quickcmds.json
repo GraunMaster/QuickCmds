@@ -1,0 +1,103 @@
+{
+  "menuScale": 0.5,
+  "iconScale": 0.6,
+  "outerRadius": 135,
+  "innerRadius": 60,
+  "deadRadius": 60,
+  "segColorR": 0,
+  "segColorG": 0,
+  "segColorB": 0,
+  "segAlpha": 120,
+  "segAlphaHov": 181,
+  "txtColorR": 170,
+  "txtColorG": 170,
+  "txtColorB": 170,
+  "txtHovR": 136,
+  "txtHovG": 136,
+  "txtHovB": 136,
+  "commands": [
+    {
+      "label": "hello",
+      "action": "hello world",
+      "type": "chat",
+      "actions": [
+        "hello world"
+      ],
+      "delay": 0.0,
+      "icon": "item:minecraft:bread"
+    },
+    {
+      "label": "time",
+      "action": "/time set day",
+      "type": "command",
+      "actions": [
+        "/time set day"
+      ],
+      "delay": 0.0,
+      "icon": "item:minecraft:torch"
+    },
+    {
+      "label": "night",
+      "action": "/time set night",
+      "type": "command",
+      "actions": [
+        "/time set night"
+      ],
+      "delay": 0.0,
+      "icon": "item:minecraft:nether_star"
+    },
+    {
+      "label": "F5",
+      "action": "F5",
+      "type": "hotkey",
+      "delay": 0.0,
+      "icon": "item:minecraft:crafting_table"
+    },
+    {
+      "label": "times",
+      "action": "/time set day",
+      "type": "command",
+      "actions": [
+        "/time set day",
+        "/say GG Minecraft",
+        "/time set night",
+        "/say hello world Minecraft",
+        "/time set day"
+      ],
+      "delay": 1.0,
+      "icon": "item:minecraft:book"
+    },
+    {
+      "label": "settings",
+      "action": "Y",
+      "type": "hotkey",
+      "delay": 0.0,
+      "icon": "item:minecraft:redstone"
+    },
+    {
+      "label": "Chat",
+      "action": "T",
+      "type": "hotkey",
+      "delay": 0.0,
+      "icon": "item:minecraft:oak_log"
+    },
+    {
+      "label": "Tab",
+      "action": "TAB",
+      "type": "hotkey",
+      "delay": 0.0,
+      "icon": "item:minecraft:glass"
+    }
+  ],
+  "iconUsage": {
+    "item:minecraft:crafting_table": 1,
+    "item:minecraft:book": 2,
+    "item:minecraft:redstone": 2,
+    "item:minecraft:clock": 1,
+    "item:minecraft:oak_log": 1,
+    "item:minecraft:bread": 1,
+    "item:minecraft:torch": 1,
+    "item:minecraft:elytra": 1,
+    "item:minecraft:glass": 1
+  }
+}

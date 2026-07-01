@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "quickcmds",
+  "version": "${version}",
+  "name": "QuickCmds",
+  "description": "Quick Commands — run commands and text with a single click.",
+  "authors": [
+    "GraunMaster",
+    "Nikiilya"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/quickcmds",
+    "issues": "https://t.me/GraunGamesTeam"
+  },
+  "license": "MIT",
+  "icon": "assets/quickcmds/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.graungame.quickcmds.QuickCmdsClient"
+    ]
+  },
+  "mixins": [
+    "quickcmds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "~1.21.6"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/mod/quickcmds"
+      }
+    }
+  }
+}
